@@ -1,0 +1,125 @@
+/* menu */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F6FF;
+}
+header{
+    position: relative;
+    margin-bottom: 30%;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item{
+    padding: 20px;
+}
+.sign li {
+    padding: 15px 54px ;
+    background-color: orangered;
+    border-radius: 15px;
+}
+.heading-content-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+.btn-custom  {
+    background-color: #16194F;
+    color: white;
+    border-radius: 20px;
+}
+.btn-custom:hover{
+    color: white;
+
+}
+.phone img{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.phone img:nth-child(2){
+    position: absolute;
+    right: 40%;
+    top: 100%;
+}
+.phone img:nth-child(3){
+    position: absolute;
+    right: 0%;
+    top: 100%;
+}
+
+.phone img:nth-child(4){
+    position: absolute;
+    right: 2%;
+}
+.card-design h2{
+    color: #554DDE;
+    font-size: 50px;
+}
+.card-design p{
+    color: #6A6D9E;
+}
+.balance h2{
+    color: #554DDE;
+}
+.balance p{
+    color: #6A6D9E;
+}
+.language h2{
+    color: #554DDE;
+}
+.language p{
+    color: #6A6D9E;
+}
+.balance-price, .transaction{
+    background-color: #fff;
+    width: 35%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10%;
+
+}
+.balance-price h3, .transaction h3{
+    color: #554DDE;
+    font-size: 40px;
+}
+.day{
+    margin-bottom: 10%;
+}
+footer{
+    background-color: #DCE2F0;
+    padding: 90px;
+    margin-top: 50px;
+}
+.footer-section li{
+    padding: 0 0 20px 0;
+}
+.footer-section li a{
+
+   color: #16194F;
+
+}
+.service h3{
+    color: #554DDE;
+}
+.service h3 span{
+    color: #F44E77;
+}
+.frequently h3{
+    color: #554DDE;
+}
+.frequently h3 span{
+    color: #F44E77;
+}
+.frequently p{
+    color: #6A6D9E;
+}
+  
